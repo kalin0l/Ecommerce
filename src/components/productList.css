@@ -1,0 +1,93 @@
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70rem;
+  height: 20rem;
+  margin-bottom: 2.5rem;
+}
+
+.products .product .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+.products .product .price p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.products .product .price h5,
+.products .product .price p {
+  font-weight: 400;
+}
+
+.products .product .link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products .product img {
+  display: block;
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 920px) {
+  .products .product {
+    width: 35rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  .products .product img {
+    height: 80%;
+  }
+  .products .product .price {
+    width: 75%;
+  }
+  .products .product .price h5, .products .product .price p {
+    font-size: 12.5px;
+  }
+  .products .product .link-container {
+    width: 90px;
+  }
+}
+/*# sourceMappingURL=productList.css.map */

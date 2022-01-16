@@ -1,0 +1,65 @@
+div {
+  display: flex;
+}
+div .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #006eff;
+  color: #fff;
+  font-weight: bold;
+  font-size: larger;
+  width: 50vw;
+  height: 100vh;
+}
+div .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: azure;
+  width: 50vw;
+  height: 100vh;
+}
+
+.form-btn {
+  text-decoration: none;
+  border: 2px solid #006eff;
+  color: #006eff;
+  border-radius: 20px;
+  font-weight: bolder;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  margin-top: 0.75rem;
+}
+
+.twitter-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-btns .upper-btn {
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  background-color: #006eff;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+.twitter-btns .lower-btn {
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: #006eff;
+  border: 2px solid #006eff;
+  text-decoration: none;
+}
+.twitter-btns p {
+  font-weight: bolder;
+  color: #000;
+}

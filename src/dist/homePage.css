@@ -1,0 +1,41 @@
+.main-content {
+  display: grid;
+  grid-template-rows: 1fr, min-content;
+  grid-template-columns: auto, min-content;
+}
+.main-content .products {
+  grid-row: 2/3;
+  height: 100%;
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-header {
+  height: 40vh;
+  background-color: azure;
+  width: 100vw;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-header .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  width: 20%;
+  height: 20%;
+}

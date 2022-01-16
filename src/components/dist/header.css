@@ -1,0 +1,18 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(222, 184, 135, 0.8);
+  color: grey;
+  font-weight: bolder;
+  font-size: larger;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .home-link, header .about-section {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}

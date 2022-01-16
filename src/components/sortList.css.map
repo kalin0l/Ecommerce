@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEE,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;CAC1B;;AAED,AAAA,WAAW,CAAC;EACV,YAAY,EAAE,WAAW;EACzB,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,UAAU;EAC1B,OAAO,EAAE,cAAc;CACxB;;AACD,AAAA,KAAK,CAAC;EACJ,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,UAAU;CAC3B",
+    "sources": [
+        "sortList.scss",
+        "../global.scss"
+    ],
+    "names": [],
+    "file": "sortList.css"
+}

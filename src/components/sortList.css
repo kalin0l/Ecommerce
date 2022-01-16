@@ -1,0 +1,21 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sort-input {
+  border-color: transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+}
+
+label {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=sortList.css.map */

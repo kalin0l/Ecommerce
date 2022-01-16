@@ -1,0 +1,74 @@
+@import '../global.scss';
+.main {
+    display: flex;
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-burly-opacity;
+        color: $color-white;
+        font-weight: bold;
+        font-size: larger;
+        width: 50vw;
+        height: 100vh;
+        @media only screen and (max-width: 415px){
+            h4 {
+                 font-size: 16px;
+             }
+             
+         }
+    }
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: $color-azure;
+        width: 50vw;
+        height: 100vh;
+        
+    }
+}
+
+.twitter-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    @media only screen and (max-width: 466px){
+       h1 {
+            font-size: 16px;
+        }
+        
+    }
+    .upper-btn{
+        margin-top: 0.5rem;
+        border-radius: 20px;
+        padding: 0.25rem 0.75rem;
+        cursor: pointer;
+        background-color: $color-burly-opacity;
+        color: $color-white;
+        border: none;
+        text-decoration: none;
+        
+    }
+    .lower-btn {
+        margin-top: 0.5rem;
+        border-radius: 20px;
+        padding: 0.25rem 0.75rem;
+        cursor: pointer;
+        background-color: $color-white;
+        color: $color-burly-opacity;
+        border: 2px solid $color-burly-opacity;
+        text-decoration: none;
+    }
+    p {
+        font-weight: bolder;
+        color: $color-black-opacity;
+
+    }
+    h1 {
+        color: $color-black-opacity;
+    }
+}

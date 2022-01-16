@@ -1,0 +1,33 @@
+@import '../global.scss';
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    h1 {
+        color: $color-black-opacity;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-burly-opacity;
+        border-radius: 5px;
+        padding: 1rem;
+        .error {
+            text-align: center;
+        }
+      
+        
+    }
+    .success {
+        color: limegreen;
+    }
+    input {
+        margin: 1rem;
+        
+    }
+}

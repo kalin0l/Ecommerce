@@ -1,0 +1,139 @@
+@import "../global.scss";
+.main-content {
+  display: grid;
+  grid-template-rows: 1fr, min-content, auto;
+  grid-template-columns: auto, min-content, auto;
+  overflow-x: hidden;
+  h1 {
+    color: $color-black-opacity;
+  }
+  @media only screen and(max-height:900px){
+     
+   .sub-header {
+     height: 35vh;
+   }
+  
+}
+@media only screen and(max-height:700px){
+     
+  .sub-header {
+    height: 60vh;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+}
+  .products {
+    grid-row: 2/3;
+    height: 50vh;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(173, 216, 230, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media only screen and(max-height:900px){
+        height: 70vh;
+    }
+    
+  }
+}
+.sub-header {
+  height: 25vh;
+  background-color: azure;
+  width: 100vw;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .product-btn {
+    color: #fff;
+    background-color: $color-burlywood;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .product-btn:hover {
+    opacity: 0.5;
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  .img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    img {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .img-container {
+      margin: 0.75rem;
+      img {
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 711px) {
+    margin-bottom: 1rem;
+    .img-container {
+     
+      img {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 621px) {
+    h5,p {
+      
+      margin-left: 20px;
+    }
+    .img-container {
+      margin: 0.25rem;
+      
+    }
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 621px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-white;
+  background-color: $color-burly-opacity;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  opacity: 0.5;
+}

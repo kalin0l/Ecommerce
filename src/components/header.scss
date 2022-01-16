@@ -1,0 +1,21 @@
+@import '../global.scss';
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $color-burly-opacity;
+    color: grey;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .home-link,.about-section {
+        margin-right: 1rem;
+        text-decoration: none;
+        color: $color-black-opacity;
+    }
+    
+}

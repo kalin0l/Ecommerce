@@ -1,0 +1,29 @@
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.reg-form h1 {
+  color: rgba(0, 0, 0, 0.8);
+}
+.reg-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(222, 184, 135, 0.8);
+  border-radius: 5px;
+  padding: 1rem;
+}
+.reg-form form .error {
+  text-align: center;
+}
+.reg-form .success {
+  color: limegreen;
+}
+.reg-form input {
+  margin: 1rem;
+}

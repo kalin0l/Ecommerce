@@ -1,0 +1,93 @@
+.home-header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(222, 184, 135, 0.8);
+  opacity: 0.8;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-header {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.home-header p {
+  color: azure;
+}
+
+.home-header h3 {
+  color: azure;
+}
+
+.home-header .link {
+  color: azure;
+  text-decoration: none;
+}
+
+.home-header .link:hover {
+  text-decoration: underline;
+}
+
+.home-header .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-header .user-info button {
+  background-color: #fff;
+  color: burlywood;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.home-header .user-info button:hover {
+  background-color: burlywood;
+  color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-header {
+    font-size: 16px;
+  }
+}
+
+.shoppingCart {
+  color: #fff;
+  font-size: larger;
+  text-decoration: none;
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+  .shoppingCart {
+    margin-right: 20px;
+  }
+}
+
+.shoppingCart span {
+  position: absolute;
+  right: -18px;
+  bottom: 12.5px;
+  background-color: #fff;
+  color: burlywood;
+  border-radius: 15px;
+  padding: 0 5px;
+}
+/*# sourceMappingURL=homePageHeader.css.map */

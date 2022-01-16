@@ -1,0 +1,70 @@
+@import '../global.scss';
+.home-header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: $color-burly-opacity;
+    opacity: 0.8;
+    z-index: 100;
+    @media only screen and (max-width: 900px) {
+        justify-content: space-evenly;
+      }
+    p {
+        color: $color-azure
+    }
+    
+    h3 {
+        color: $color-azure
+    }
+    .link {
+        color: $color-azure;
+        text-decoration: none;
+    }
+    .link:hover {
+        text-decoration: underline;
+    }
+    .user-info {
+        display: flex;
+        align-items: center;
+        button {
+            background-color: $color-white;
+            color: $color-burlywood;
+            border-radius: 5px;
+            border: none;
+            margin-left: 5px;
+            height:40px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: $color-burlywood;
+            color: $color-white;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        font-size: 16px;
+      }
+    
+}
+.shoppingCart {
+    color:$color-white;
+    font-size: larger;
+    text-decoration: none;
+    position: relative;
+    @media only screen and (max-width: 900px) {
+       margin-right: 20px;
+      }
+    span {
+        position: absolute;
+        right: -18px;
+        bottom: 12.5px;
+        background-color: $color-white;
+        color: $color-burlywood;
+        border-radius: 15px;
+        padding: 0 5px;
+       
+    }
+    
+}
