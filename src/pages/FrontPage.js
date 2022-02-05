@@ -14,6 +14,7 @@ const FrontPage = () => {
   return (
     <Fragment>
       <div className="main">
+        <Link to='/products' className="product-btn">To Products</Link>
         <section className="left-side" >
           <h4>Find what you need</h4>
           <h4>

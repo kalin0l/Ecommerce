@@ -33,9 +33,9 @@ function App() {
         <Route path='/products'>
           <ProductPage/>
         </Route>
-        <Route path='/cart'>
+        {isLoggedIn && <Route path='/cart'>
           <CartPage/>
-        </Route>
+        </Route>}
         <Route path='*'>
           <Redirect to='/'/>
         </Route>

@@ -18,6 +18,7 @@ const SingleProductPage = () => {
   const img = useSelector((state) => state.products.img);
   const mainColor = useSelector((state) => state.products.mainColor);
   const quantity = useSelector((state) => state.cart.quantity);
+  const isLoggedIn = useSelector((state) => state.register.token);
 
   const changeMainImg = (i) => {
     dispatch(ProductActions.setImg(item.singleProduct.images[i].url));
@@ -131,6 +132,7 @@ const SingleProductPage = () => {
                 Add to cart
               </Link>
             )}
+            {!isLoggedIn && <p className='error'>You have to be logged in order to add products to the cart!</p>}
           </div>
         </div>
       )}

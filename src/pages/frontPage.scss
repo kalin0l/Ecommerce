@@ -72,3 +72,17 @@
         color: $color-black-opacity;
     }
 }
+.product-btn {
+    position: absolute;
+    top: 20%;
+    left: 47.5%;
+    color: black;
+    font-weight: 500;
+    background: linear-gradient(to left,burlywood,white) ;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.product-btn:hover {
+    opacity: 0.8;
+}
